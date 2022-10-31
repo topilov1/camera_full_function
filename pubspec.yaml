@@ -1,0 +1,44 @@
+name: camera_full_function
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+    #zoom uchun 
+  photo_view: ^0.14.0
+
+  # share for image 
+  share_plus: ^6.0.1
+  http: ^0.13.5
+  path_provider: ^2.0.11
+
+  # save galareya
+  gallery_saver: ^2.3.2
+
+  # video and image
+  image_picker: ^0.8.6
+
+  #play video
+  video_player: ^2.4.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
